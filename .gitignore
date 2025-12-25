@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Models (if large)
+models/
+*.pt
+*.bin
+*.ckpt
+
+# Data (but keep dataset examples)
+data/
+# Keep dataset examples
+!dataset/*.jsonl
+*.json
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+results/
+outputs/
+wandb/
+
